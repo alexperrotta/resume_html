@@ -87,14 +87,18 @@ ul {
     padding: 0;
 }
 
-a {
+#experience a {
     text-decoration: none;
-    color: black;
 }
 
-a.visited {
+#experience a:hover {
+    text-decoration: none; 
+    color: #0000FF;
+}
+
+#experience a:visited {
     text-decoration: none;
-    color: gray;
+    color: #808080;
 }
 
 
