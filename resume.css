@@ -1,0 +1,110 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F9FCFF;
+}
+
+#about, #experience, #contact {
+    height: 400px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+
+header {
+    background-image: url("img/seamless_pattern_color_02.jpg");
+    background-position: 1200px 500px;
+    background-repeat: no-repeat;
+    background-color: #A8D9FF;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 10px 0;
+}
+
+#about h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+}
+#about p {
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 42px;
+    padding-right: 20px;
+}
+
+#about img {
+    box-shadow: 3px 4px 5px rgba(0,0,0,.5);
+}
+
+
+
+/****** EXPERIENCE ******/
+
+#experience .full-width {
+    padding: 80px 0;
+}
+
+#experience .third-width {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #E44733;
+}
+
+#experience li {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.visited {
+    text-decoration: none;
+    color: gray;
+}
+
+
+/****** FOOTER/CONTACT ******/
+
+#contact .full-width {
+    padding: 30px;
+    text-align: center; 
+}
+
+
+
+
